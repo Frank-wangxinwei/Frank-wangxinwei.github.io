@@ -949,7 +949,7 @@ footer {
 
 .academic-service h3 {
 
-    margin: 0 0 18px;
+    margin: 0 0 10px;
 
     font-family: Georgia, serif;
 
@@ -979,9 +979,9 @@ footer {
 
     align-items: center;
 
-    gap: 30px;
+    gap: 20px;
 
-    padding: 15px 0;
+    padding: 10px 0;
 
     border-bottom: 1px solid var(--border);
 
@@ -1014,7 +1014,7 @@ footer {
 
         align-items: flex-start;
 
-        gap: 3px;
+        gap: 5px;
 
     }
 
