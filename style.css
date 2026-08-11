@@ -934,3 +934,88 @@ footer {
     }
 
 }
+
+
+/* =====================================
+   Academic Service
+===================================== */
+
+.academic-service {
+
+    max-width: 900px;
+
+}
+
+
+.academic-service h3 {
+
+    margin: 0 0 18px;
+
+    font-family: Georgia, serif;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+}
+
+
+.academic-service ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+.academic-service li {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+
+.academic-service li strong {
+
+    font-weight: 500;
+
+}
+
+
+.academic-service li span {
+
+    flex-shrink: 0;
+
+    color: var(--text-secondary);
+
+    font-size: 14px;
+
+}
+
+
+@media (max-width: 800px) {
+
+    .academic-service li {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 3px;
+
+    }
+
+}
